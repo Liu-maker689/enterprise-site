@@ -1,227 +1,227 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang=zh-CN>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>安农农业科技 - 十年耕耘 智慧农业</title>
-  <meta name="description" content="绿野科技 — 专注智慧农业十年，以科技创新赋能现代农业发展">
+  <meta charset=UTF-8>
+  <meta name=viewport content=width=device-width, initial-scale=1.0>
+  <title>瀹夊啘鍐滀笟绉戞妧 - 鍗佸勾鑰曡€?鏅烘収鍐滀笟</title>
+  <meta name=description content=缁块噹绉戞妧 鈥?涓撴敞鏅烘収鍐滀笟鍗佸勾锛屼互绉戞妧鍒涙柊璧嬭兘鐜颁唬鍐滀笟鍙戝睍>
 
-  <!-- 思源宋体 CDN -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- 鎬濇簮瀹嬩綋 CDN -->
+  <link rel=preconnect href=https://fonts.googleapis.com>
+  <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+  <link href=https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap rel=stylesheet>
 
   <!-- GSAP + ScrollTrigger -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js></script>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel=stylesheet href=css/style.css>
 </head>
 <body>
 
-  <!-- ==================== 全局导航栏 ==================== -->
-  <nav id="navbar" class="navbar">
-    <div class="nav-container">
-      <a href="#hero" class="nav-logo">安农农业科技</a>
-      <button class="nav-hamburger" id="navHamburger" aria-label="菜单">
+  <!-- ==================== 鍏ㄥ眬瀵艰埅鏍?==================== -->
+  <nav id=navbar class=navbar>
+    <div class=nav-container>
+      <a href=#hero class=nav-logo>瀹夊啘鍐滀笟绉戞妧</a>
+      <button class=nav-hamburger id=navHamburger aria-label=鑿滃崟>
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="#hero" data-section="hero" class="nav-link active">首页</a></li>
-        <li><a href="#stats" data-section="stats" class="nav-link">数据亮点</a></li>
-        <li><a href="#timeline" data-section="timeline" class="nav-link">发展历程</a></li>
-        <li><a href="#tech" data-section="tech" class="nav-link">技术实力</a></li>
-        <li><a href="#products" data-section="products" class="nav-link">产品</a></li>
-        <li><a href="#team" data-section="team" class="nav-link">团队</a></li>
-        <li><a href="#contact" data-section="contact" class="nav-link">联系我们</a></li>
+      <ul class=nav-menu id=navMenu>
+        <li><a href=#hero data-section=hero class=nav-link active>棣栭〉</a></li>
+        <li><a href=#stats data-section=stats class=nav-link>鏁版嵁浜偣</a></li>
+        <li><a href=#timeline data-section=timeline class=nav-link>鍙戝睍鍘嗙▼</a></li>
+        <li><a href=#tech data-section=tech class=nav-link>鎶€鏈疄鍔?/a></li>
+        <li><a href=#products data-section=products class=nav-link>浜у搧</a></li>
+        <li><a href=#team data-section=team class=nav-link>鍥㈤槦</a></li>
+        <li><a href=#contact data-section=contact class=nav-link>鑱旂郴鎴戜滑</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ==================== Section 1: 首屏英雄区 ==================== -->
-  <section id="hero" class="section hero-section">
-    <div class="hero-bg" id="heroBg"></div>
-    <div class="hero-content">
-      <h1 class="hero-title" id="heroTitle">深耕沃土十载<br>智绘丰收未来</h1>
-      <p class="hero-subtitle" id="heroSubtitle">用科技守护每一寸土地，让农业更智慧、更高效、更可持续</p>
+  <!-- ==================== Section 1: 棣栧睆鑻遍泟鍖?==================== -->
+  <section id=hero class=section hero-section>
+    <div class=hero-bg id=heroBg></div>
+    <div class=hero-content>
+      <h1 class=hero-title id=heroTitle>娣辫€曟矁鍦熷崄杞?br>鏅虹粯涓版敹鏈潵</h1>
+      <p class=hero-subtitle id=heroSubtitle>鐢ㄧ鎶€瀹堟姢姣忎竴瀵稿湡鍦帮紝璁╁啘涓氭洿鏅烘収銆佹洿楂樻晥銆佹洿鍙寔缁?/p>
     </div>
-    <div class="scroll-hint" id="scrollHint">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-      <span>向下滚动探索</span>
+    <div class=scroll-hint id=scrollHint>
+      <svg width=24 height=24 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2><path d=M12 5v14M19 12l-7 7-7-7/></svg>
+      <span>鍚戜笅婊氬姩鎺㈢储</span>
     </div>
   </section>
 
-  <!-- ==================== Section 2: 数据亮点条 ==================== -->
-  <section id="stats" class="section stats-section">
-    <div class="stats-decor stats-decor-left"></div>
-    <div class="stats-decor stats-decor-right"></div>
-    <div class="container">
-      <div class="stats-grid">
-        <div class="stat-card" data-target="18" data-suffix="+">
-          <div class="stat-number"><span class="stat-value">0</span><span class="stat-suffix">+</span></div>
-          <div class="stat-desc">项核心专利技术</div>
+  <!-- ==================== Section 2: 鏁版嵁浜偣鏉?==================== -->
+  <section id=stats class=section stats-section>
+    <div class=stats-decor stats-decor-left></div>
+    <div class=stats-decor stats-decor-right></div>
+    <div class=container>
+      <div class=stats-grid>
+        <div class=stat-card data-target=18 data-suffix=+>
+          <div class=stat-number><span class=stat-value>0</span><span class=stat-suffix>+</span></div>
+          <div class=stat-desc>椤规牳蹇冧笓鍒╂妧鏈?/div>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card" data-target="5000" data-suffix="">
-          <div class="stat-number"><span class="stat-value">0</span><span class="stat-suffix">亩</span></div>
-          <div class="stat-desc">自有种植示范基地</div>
+        <div class=stat-divider></div>
+        <div class=stat-card data-target=5000 data-suffix=">
+          <div class=stat-number><span class=stat-value>0</span><span class=stat-suffix>浜?/span></div>
+          <div class=stat-desc>鑷湁绉嶆绀鸿寖鍩哄湴</div>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card" data-target="30000" data-suffix="+">
-          <div class="stat-number"><span class="stat-value">0</span><span class="stat-suffix">+</span></div>
-          <div class="stat-desc">服务覆盖农户数量</div>
+        <div class=stat-divider></div>
+        <div class=stat-card data-target=30000 data-suffix=+>
+          <div class=stat-number><span class=stat-value>0</span><span class=stat-suffix>+</span></div>
+          <div class=stat-desc>鏈嶅姟瑕嗙洊鍐滄埛鏁伴噺</div>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card" data-target="12" data-suffix="">
-          <div class="stat-number"><span class="stat-value">0</span><span class="stat-suffix">条</span></div>
-          <div class="stat-desc">完整产品线布局</div>
+        <div class=stat-divider></div>
+        <div class=stat-card data-target=12 data-suffix=">
+          <div class=stat-number><span class=stat-value>0</span><span class=stat-suffix>鏉?/span></div>
+          <div class=stat-desc>瀹屾暣浜у搧绾垮竷灞€</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ==================== Section 3: 十年发展时间线 ==================== -->
-  <section id="timeline" class="section timeline-section">
-    <div class="container">
-      <h2 class="section-title">十年发展历程</h2>
-      <p class="section-subtitle">从一颗种子到一片森林，每一步都脚踏实地</p>
+  <!-- ==================== Section 3: 鍗佸勾鍙戝睍鏃堕棿绾?==================== -->
+  <section id=timeline class=section timeline-section>
+    <div class=container>
+      <h2 class=section-title>鍗佸勾鍙戝睍鍘嗙▼</h2>
+      <p class=section-subtitle>浠庝竴棰楃瀛愬埌涓€鐗囨．鏋楋紝姣忎竴姝ラ兘鑴氳笍瀹炲湴</p>
 
-      <!-- 年份导航 -->
-      <div class="timeline-nav" id="timelineNav">
-        <button class="tl-year active" data-year="2016">2016</button>
-        <button class="tl-year" data-year="2018">2018</button>
-        <button class="tl-year" data-year="2020">2020</button>
-        <button class="tl-year" data-year="2021">2021</button>
-        <button class="tl-year" data-year="2023">2023</button>
-        <button class="tl-year" data-year="2024">2024</button>
-        <button class="tl-year" data-year="2025">2025</button>
+      <!-- 骞翠唤瀵艰埅 -->
+      <div class=timeline-nav id=timelineNav>
+        <button class=tl-year active data-year=2016>2016</button>
+        <button class=tl-year data-year=2018>2018</button>
+        <button class=tl-year data-year=2020>2020</button>
+        <button class=tl-year data-year=2021>2021</button>
+        <button class=tl-year data-year=2023>2023</button>
+        <button class=tl-year data-year=2024>2024</button>
+        <button class=tl-year data-year=2025>2025</button>
       </div>
-      <div class="timeline-progress-bar"><div class="timeline-progress-fill" id="tlProgress"></div></div>
+      <div class=timeline-progress-bar><div class=timeline-progress-fill id=tlProgress></div></div>
 
-      <!-- 左右箭头 -->
-      <button class="tl-arrow tl-arrow-left" id="tlArrowLeft" aria-label="上一张">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+      <!-- 宸﹀彸绠ご -->
+      <button class=tl-arrow tl-arrow-left id=tlArrowLeft aria-label=涓婁竴寮?>
+ <svg width=20 height=20 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.5><path d=M15 18l-6-6 6-6/></svg>
+ </button>
+ <button class=tl-arrow tl-arrow-right id=tlArrowRight aria-label=涓嬩竴寮?>
+        <svg width=20 height=20 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.5><path d=M9 18l6-6-6-6/></svg>
       </button>
-      <button class="tl-arrow tl-arrow-right" id="tlArrowRight" aria-label="下一张">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
 
-      <!-- 横向滚动容器 -->
-      <div class="timeline-track-wrapper">
-        <div class="timeline-track" id="timelineTrack">
-          <div class="tl-card" data-year="2016">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#2E7D32,#66BB6A)"></div>
-            <div class="tl-card-year">2016</div>
-            <div class="tl-card-title">公司成立</div>
-            <div class="tl-card-desc">三位农业专家联合创立绿野科技，致力于将物联网技术引入传统农业生产场景。</div>
+      <!-- 妯悜婊氬姩瀹瑰櫒 -->
+      <div class=timeline-track-wrapper>
+        <div class=timeline-track id=timelineTrack>
+          <div class=tl-card data-year=2016>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#2E7D32,#66BB6A)></div>
+            <div class=tl-card-year>2016</div>
+            <div class=tl-card-title>鍏徃鎴愮珛</div>
+            <div class=tl-card-desc>涓変綅鍐滀笟涓撳鑱斿悎鍒涚珛瀹夊啘绉戞妧锛岃嚧鍔涗簬灏嗙墿鑱旂綉鎶€鏈紩鍏ヤ紶缁熷啘涓氱敓浜у満鏅€?/div>
           </div>
-          <div class="tl-card" data-year="2018">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#1B5E20,#43A047)"></div>
-            <div class="tl-card-year">2018</div>
-            <div class="tl-card-title">首轮融资完成</div>
-            <div class="tl-card-desc">获得天使轮投资2000万元，建成首个500亩智能种植试验基地。</div>
+          <div class=tl-card data-year=2018>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#1B5E20,#43A047)></div>
+            <div class=tl-card-year>2018</div>
+            <div class=tl-card-title>棣栬疆铻嶈祫瀹屾垚</div>
+            <div class=tl-card-desc>鑾峰緱澶╀娇杞姇璧?000涓囧厓锛屽缓鎴愰涓?00浜╂櫤鑳界妞嶈瘯楠屽熀鍦般€?/div>
           </div>
-          <div class="tl-card" data-year="2020">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#388E3C,#81C784)"></div>
-            <div class="tl-card-year">2020</div>
-            <div class="tl-card-title">核心技术突破</div>
-            <div class="tl-card-desc">自主研发的土壤多参数传感器通过国家认证，精度达到行业领先水平。</div>
+          <div class=tl-card data-year=2020>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#388E3C,#81C784)></div>
+            <div class=tl-card-year>2020</div>
+            <div class=tl-card-title>鏍稿績鎶€鏈獊鐮?/div>
+            <div class=tl-card-desc>鑷富鐮斿彂鐨勫湡澹ゅ鍙傛暟浼犳劅鍣ㄩ€氳繃鍥藉璁よ瘉锛岀簿搴﹁揪鍒拌涓氶鍏堟按骞炽€?/div>
           </div>
-          <div class="tl-card" data-year="2021">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#2E7D32,#A5D6A7)"></div>
-            <div class="tl-card-year">2021</div>
-            <div class="tl-card-title">产品正式发布</div>
-            <div class="tl-card-desc">推出「绿野云」智慧农业管理平台，首批签约客户超过100家农场。</div>
+          <div class=tl-card data-year=2021>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#2E7D32,#A5D6A7)></div>
+            <div class=tl-card-year>2021</div>
+            <div class=tl-card-title>浜у搧姝ｅ紡鍙戝竷</div>
+            <div class=tl-card-desc>鎺ㄥ嚭銆屽畨鍐滀簯銆嶆櫤鎱у啘涓氱鐞嗗钩鍙般€?/div>
           </div>
-          <div class="tl-card" data-year="2023">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#1B5E20,#4CAF50)"></div>
-            <div class="tl-card-year">2023</div>
-            <div class="tl-card-title">全国布局</div>
-            <div class="tl-card-desc">业务拓展至全国15个省份，服务基地面积突破3000亩，用户数超2万。</div>
+          <div class=tl-card data-year=2023>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#1B5E20,#4CAF50)></div>
+            <div class=tl-card-year>2023</div>
+            <div class=tl-card-title>鍏ㄥ浗甯冨眬</div>
+            <div class=tl-card-desc>涓氬姟鎷撳睍鑷冲叏鍥?5涓渷浠斤紝鏈嶅姟鍩哄湴闈㈢Н绐佺牬3000浜╋紝鐢ㄦ埛鏁拌秴2涓囥€?/div>
           </div>
-          <div class="tl-card" data-year="2024">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#388E3C,#66BB6A)"></div>
-            <div class="tl-card-year">2024</div>
-            <div class="tl-card-title">AI决策引擎上线</div>
-            <div class="tl-card-desc">发布基于大模型的农业AI助手，实现病虫害智能识别与产量预测功能。</div>
+          <div class=tl-card data-year=2024>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#388E3C,#66BB6A)></div>
+            <div class=tl-card-year>2024</div>
+            <div class=tl-card-title>AI鍐崇瓥寮曟搸涓婄嚎</div>
+            <div class=tl-card-desc>鍙戝竷鍩轰簬澶фā鍨嬬殑鍐滀笟AI鍔╂墜锛屽疄鐜扮梾铏鏅鸿兘璇嗗埆涓庝骇閲忛娴嬪姛鑳姐€?/div>
           </div>
-          <div class="tl-card" data-year="2025">
-            <div class="tl-card-img" style="background:linear-gradient(135deg,#1B5E20,#C9A96E)"></div>
-            <div class="tl-card-year">2025</div>
-            <div class="tl-card-title">国际化启航</div>
-            <div class="tl-card-desc">启动东南亚市场拓展计划，与3国农业部门达成战略合作意向。</div>
+          <div class=tl-card data-year=2025>
+            <div class=tl-card-img style=background:linear-gradient(135deg,#1B5E20,#C9A96E)></div>
+            <div class=tl-card-year>2025</div>
+            <div class=tl-card-title>瑙勬ā鍖栧惎鑸?/div>
+            <div class=tl-card-desc>鍚姩鍗楁柟甯傚満鎷撳睍璁″垝锛屼笌鍦版柟鍐滀笟閮ㄩ棬杈炬垚鎴樼暐鍚堜綔鎰忓悜銆?/div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ==================== Section 4: 技术实力 ==================== -->
-  <section id="tech" class="section tech-section">
-    <div class="container">
-      <h2 class="section-title">核心技术实力</h2>
-      <p class="section-subtitle">自主研发 · 行业领先 · 持续创新</p>
+  <!-- ==================== Section 4: 鎶€鏈疄鍔?==================== -->
+  <section id=tech class=section tech-section>
+    <div class=container>
+      <h2 class=section-title>鏍稿績鎶€鏈疄鍔?/h2>
+      <p class=section-subtitle>鑷富鐮斿彂 路 琛屼笟棰嗗厛 路 鎸佺画鍒涙柊</p>
 
-      <div class="tech-list">
-        <!-- 技术1：左图右文 -->
-        <div class="tech-item tech-item-odd">
-          <div class="tech-img-wrap">
-            <div class="tech-placeholder" style="background:linear-gradient(135deg,#E8F5E9,#C8E6C9)">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
+      <div class=tech-list>
+        <!-- 鎶€鏈?锛氬乏鍥惧彸鏂?-->
+        <div class=tech-item tech-item-odd>
+          <div class=tech-img-wrap>
+            <div class=tech-placeholder style=background:linear-gradient(135deg,#E8F5E9,#C8E6C9)>
+              <svg width=64 height=64 viewBox=0 0 24 24 fill=none stroke=#2E7D32 stroke-width=1.5><rect x=4 y=4 width=16 height=16 rx=2/><circle cx=12 cy=12 r=3/><path d=M12 2v2M12 20v2M2 12h2M20 12h2/></svg>
             </div>
           </div>
-          <div class="tech-text-wrap">
-            <div class="tech-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <div class=tech-text-wrap>
+            <div class=tech-icon>
+              <svg width=48 height=48 viewBox=0 0 24 24 fill=none stroke=#1B5E20 stroke-width=1.5><path d=M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5/></svg>
             </div>
-            <h3 class="tech-title">IoT 物联网感知网络</h3>
-            <p class="tech-desc">自研低功耗广域传感器网络，覆盖土壤温湿度、光照强度、CO₂浓度等12项关键指标，数据采集频率可达秒级，传输距离超过5公里。</p>
-            <div class="tech-tags">
-              <span class="tech-tag">12项监测指标</span>
-              <span class="tech-tag">秒级采集</span>
-              <span class="tech-tag">5km传输</span>
+            <h3 class=tech-title>IoT 鐗╄仈缃戞劅鐭ョ綉缁?/h3>
+            <p class=tech-desc>鑷爺浣庡姛鑰楀箍鍩熶紶鎰熷櫒缃戠粶锛岃鐩栧湡澹ゆ俯婀垮害銆佸厜鐓у己搴︺€丆O鈧傛祿搴︾瓑12椤瑰叧閿寚鏍囷紝鏁版嵁閲囬泦棰戠巼鍙揪绉掔骇锛屼紶杈撹窛绂昏秴杩?鍏噷銆?/p>
+            <div class=tech-tags>
+              <span class=tech-tag>12椤圭洃娴嬫寚鏍?/span>
+              <span class=tech-tag>绉掔骇閲囬泦</span>
+              <span class=tech-tag>5km浼犺緭</span>
             </div>
           </div>
         </div>
 
-        <!-- 技术2：左文右图 -->
-        <div class="tech-item tech-item-even">
-          <div class="tech-text-wrap">
-            <div class="tech-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27,6.96 12,12.01 20.73,6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        <!-- 鎶€鏈?锛氬乏鏂囧彸鍥?-->
+        <div class=tech-item tech-item-even>
+          <div class=tech-text-wrap>
+            <div class=tech-icon>
+              <svg width=48 height=48 viewBox=0 0 24 24 fill=none stroke=#1B5E20 stroke-width=1.5><path d=M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z/><polyline points=3.27,6.96 12,12.01 20.73,6.96/><line x1=12 y1=22.08 x2=12 y2=12/></svg>
             </div>
-            <h3 class="tech-title">AI 决策分析引擎</h3>
-            <p class="tech-desc">融合机器学习与大语言模型，构建作物生长模型库，支持病虫害智能识别、产量预测、灌溉方案自动生成等核心能力。</p>
-            <div class="tech-tags">
-              <span class="tech-tag">98%识别准确率</span>
-              <span class="tech-tag">50+作物模型</span>
-              <span class="tech-tag">实时决策</span>
+            <h3 class=tech-title>AI 鍐崇瓥鍒嗘瀽寮曟搸</h3>
+            <p class=tech-desc>铻嶅悎鏈哄櫒瀛︿範涓庡ぇ璇█妯″瀷锛屾瀯寤轰綔鐗╃敓闀挎ā鍨嬪簱锛屾敮鎸佺梾铏鏅鸿兘璇嗗埆銆佷骇閲忛娴嬨€佺亴婧夋柟妗堣嚜鍔ㄧ敓鎴愮瓑鏍稿績鑳藉姏銆?/p>
+            <div class=tech-tags>
+              <span class=tech-tag>98%璇嗗埆鍑嗙‘鐜?/span>
+              <span class=tech-tag>50+浣滅墿妯″瀷</span>
+              <span class=tech-tag>瀹炴椂鍐崇瓥</span>
             </div>
           </div>
-          <div class="tech-img-wrap">
-            <div class="tech-placeholder" style="background:linear-gradient(135deg,#F1F8E9,#DCEDC8)">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div class=tech-img-wrap>
+            <div class=tech-placeholder style=background:linear-gradient(135deg,#F1F8E9,#DCEDC8)>
+              <svg width=64 height=64 viewBox=0 0 24 24 fill=none stroke=#2E7D32 stroke-width=1.5><circle cx=12 cy=12 r=10/><path d=M12 6v6l4 2/></svg>
             </div>
           </div>
         </div>
 
-        <!-- 技术3：左图右文 -->
-        <div class="tech-item tech-item-odd">
-          <div class="tech-img-wrap">
-            <div class="tech-placeholder" style="background:linear-gradient(135deg,#E8F5E9,#A5D6A7)">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        <!-- 鎶€鏈?锛氬乏鍥惧彸鏂?-->
+        <div class=tech-item tech-item-odd>
+          <div class=tech-img-wrap>
+            <div class=tech-placeholder style=background:linear-gradient(135deg,#E8F5E9,#A5D6A7)>
+              <svg width=64 height=64 viewBox=0 0 24 24 fill=none stroke=#2E7D32 stroke-width=1.5><path d=M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z/><line x1=4 y1=22 x2=4 y2=15/></svg>
             </div>
           </div>
-          <div class="tech-text-wrap">
-            <div class="tech-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <div class=tech-text-wrap>
+            <div class=tech-icon>
+              <svg width=48 height=48 viewBox=0 0 24 24 fill=none stroke=#1B5E20 stroke-width=1.5><rect x=2 y=3 width=20 height=14 rx=2/><line x1=8 y1=21 x2=16 y2=21/><line x1=12 y1=17 x2=12 y2=21/></svg>
             </div>
-            <h3 class="tech-title">安农云管理平台</h3>
-            <p class="tech-desc">一站式智慧农业SaaS平台，集成环境监控、设备管控、生产溯源、数据分析四大模块，支持PC端与移动端同步操作。</p>
-            <div class="tech-tags">
-              <span class="tech-tag">4大核心模块</span>
-              <span class="tech-tag">多端同步</span>
-              <span class="tech-tag">全链路溯源</span>
+            <h3 class=tech-title>瀹夊啘浜戠鐞嗗钩鍙?/h3>
+            <p class=tech-desc>涓€绔欏紡鏅烘収鍐滀笟SaaS骞冲彴锛岄泦鎴愮幆澧冪洃鎺с€佽澶囩鎺с€佺敓浜ф函婧愩€佹暟鎹垎鏋愬洓澶фā鍧楋紝鏀寔PC绔笌绉诲姩绔悓姝ユ搷浣溿€?/p>
+            <div class=tech-tags>
+              <span class=tech-tag>4澶ф牳蹇冩ā鍧?/span>
+              <span class=tech-tag>澶氱鍚屾</span>
+              <span class=tech-tag>鍏ㄩ摼璺函婧?/span>
             </div>
           </div>
         </div>
@@ -229,250 +229,250 @@
     </div>
   </section>
 
-  <!-- ==================== Section 5: 产品展示 ==================== -->
-  <section id="products" class="section products-section">
-    <div class="container">
-      <h2 class="section-title">产品与服务</h2>
-      <p class="section-subtitle">覆盖种植全周期的智能化解决方案</p>
+  <!-- ==================== Section 5: 浜у搧灞曠ず ==================== -->
+  <section id=products class=section products-section>
+    <div class=container>
+      <h2 class=section-title>浜у搧涓庢湇鍔?/h2>
+      <p class=section-subtitle>瑕嗙洊绉嶆鍏ㄥ懆鏈熺殑鏅鸿兘鍖栬В鍐虫柟妗?/p>
 
-      <!-- 分类标签栏 -->
-      <div class="product-filters" id="productFilters">
-        <button class="pf-btn active" data-filter="all">全部</button>
-        <button class="pf-btn" data-filter="planting">种植类</button>
-        <button class="pf-btn" data-filter="monitoring">监测类</button>
-        <button class="pf-btn" data-filter="platform">服务平台</button>
+      <!-- 鍒嗙被鏍囩鏍?-->
+      <div class=product-filters id=productFilters>
+        <button class=pf-btn active data-filter=all>鍏ㄩ儴</button>
+        <button class=pf-btn data-filter=planting>绉嶆绫?/button>
+        <button class=pf-btn data-filter=monitoring>鐩戞祴绫?/button>
+        <button class=pf-btn data-filter=platform>鏈嶅姟骞冲彴</button>
       </div>
 
-      <!-- 产品网格 -->
-      <div class="product-grid" id="productGrid">
-        <div class="product-card" data-category="monitoring">
-          <div class="product-img" style="background:linear-gradient(135deg,#E8F5E9,#C8E6C9)"></div>
-          <div class="product-name">智能土壤传感器</div>
-          <div class="product-brief">精准监测 · 多参数</div>
-          <div class="product-link">了解详情 &rarr;</div>
+      <!-- 浜у搧缃戞牸 -->
+      <div class=product-grid id=productGrid>
+        <div class=product-card data-category=monitoring>
+          <div class=product-img style=background:linear-gradient(135deg,#E8F5E9,#C8E6C9)></div>
+          <div class=product-name>鏅鸿兘鍦熷￥浼犳劅鍣?/div>
+          <div class=product-brief>绮惧噯鐩戞祴 路 澶氬弬鏁?/div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="planting">
-          <div class="product-img" style="background:linear-gradient(135deg,#F1F8E9,#DCEDC8)"></div>
-          <div class="product-name">水肥一体化系统</div>
-          <div class="product-brief">精准灌溉 · 节能降耗</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=planting>
+          <div class=product-img style=background:linear-gradient(135deg,#F1F8E9,#DCEDC8)></div>
+          <div class=product-name>姘磋偉涓€浣撳寲绯荤粺</div>
+          <div class=product-brief>绮惧噯鐏屾簤 路 鑺傝兘闄嶈€?/div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="platform">
-          <div class="product-img" style="background:linear-gradient(135deg,#E0F2F1,#B2DFDB)"></div>
-          <div class="product-name">绿野云 SaaS 平台</div>
-          <div class="product-brief">全周期管理 · 数据驱动</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=platform>
+          <div class=product-img style=background:linear-gradient(135deg,#E0F2F1,#B2DFDB)></div>
+          <div class=product-name>瀹夊啘浜?SaaS 骞冲彴</div>
+          <div class=product-brief>鍏ㄥ懆鏈熺鐞?路 鏁版嵁椹卞姩</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="monitoring">
-          <div class="product-img" style="background:linear-gradient(135deg,#FFF3E0,#FFE0B2)"></div>
-          <div class="product-name">气象监测站</div>
-          <div class="product-brief">微气候感知 · 预警联动</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=monitoring>
+          <div class=product-img style=background:linear-gradient(135deg,#FFF3E0,#FFE0B2)></div>
+          <div class=product-name>姘旇薄鐩戞祴绔?/div>
+          <div class=product-brief>寰皵鍊欐劅鐭?路 棰勮鑱斿姩</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="planting">
-          <div class="product-img" style="background:linear-gradient(135deg,#E8EAF6,#C5CAE9)"></div>
-          <div class="product-name">无人机植保方案</div>
-          <div class="product-brief">精准施药 · 效率提升</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=planting>
+          <div class=product-img style=background:linear-gradient(135deg,#E8EAF6,#C5CAE9)></div>
+          <div class=product-name>鏃犱汉鏈烘淇濇柟妗?/div>
+          <div class=product-brief>绮惧噯鏂借嵂 路 鏁堢巼鎻愬崌</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="platform">
-          <div class="product-img" style="background:linear-gradient(135deg,#FCE4EC,#F8BBD0)"></div>
-          <div class="product-name">农产品溯源系统</div>
-          <div class="product-brief">一物一码 · 品质保障</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=platform>
+          <div class=product-img style=background:linear-gradient(135deg,#FCE4EC,#F8BBD0)></div>
+          <div class=product-name>鍐滀骇鍝佹函婧愮郴缁?/div>
+          <div class=product-brief>涓€鐗╀竴鐮?路 鍝佽川淇濋殰</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="monitoring">
-          <div class="product-img" style="background:linear-gradient(135deg,#E3F2FD,#BBDEFB)"></div>
-          <div class="product-name">虫情测报灯</div>
-          <div class="product-brief">AI识别 · 自动计数</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=monitoring>
+          <div class=product-img style=background:linear-gradient(135deg,#E3F2FD,#BBDEFB)></div>
+          <div class=product-name>铏儏娴嬫姤鐏?/div>
+          <div class=product-brief>AI璇嗗埆 路 鑷姩璁℃暟</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="planting">
-          <div class="product-img" style="background:linear-gradient(135deg,#FFF8E1,#FFECB3)"></div>
-          <div class="product-name">智能温室控制器</div>
-          <div class="product-brief">环境调控 · 远程托管</div>
-          <div class="product-link">了解详情 &rarr;</div>
+        <div class=product-card data-category=planting>
+          <div class=product-img style=background:linear-gradient(135deg,#FFF8E1,#FFECB3)></div>
+          <div class=product-name>鏅鸿兘娓╁鎺у埗鍣?/div>
+          <div class=product-brief>鐜璋冩帶 路 杩滅▼鎵樼</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
-        <div class="product-card" data-category="platform">
-          <div class="product-img" style="background:linear-gradient(135deg,#EFEBE9,#D7CCC8)"></div>
-          <div class="product-name">农技咨询服务</div>
-          <div class="product-brief">专家在线 · 定制方案</div>
-          <div class="product-link">了解详情 &rarr;</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品详情弹窗 -->
-    <div class="product-modal-overlay" id="productModal">
-      <div class="product-modal" id="productModalBox">
-        <button class="modal-close" id="modalClose">&times;</button>
-        <div class="modal-img" id="modalImg"></div>
-        <div class="modal-body">
-          <h3 class="modal-title" id="modalTitle"></h3>
-          <div class="modal-tabs">
-            <button class="mtab-btn active" data-tab="params">技术参数</button>
-            <button class="mtab-btn" data-tab="cases">应用案例</button>
-            <button class="mtab-btn" data-tab="contact">立即咨询</button>
-          </div>
-          <div class="tab-content" id="tabParams">
-            <p>该产品采用最新一代传感技术，具备高精度、低功耗、长寿命等特点。具体技术参数请联系我们的技术团队获取详细规格书。</p>
-          </div>
-          <div class="tab-content hidden" id="tabCases">
-            <p>该产品已在全国多个省份的规模化农场成功部署应用，帮助客户平均提升产量15%，降低用水量30%以上。</p>
-          </div>
-          <div class="tab-content hidden" id="tabContact">
-            <p>如需了解更多产品信息或获取报价，请填写下方留言表单或直接拨打我们的咨询热线。</p>
-          </div>
+        <div class=product-card data-category=platform>
+          <div class=product-img style=background:linear-gradient(135deg,#EFEBE9,#D7CCC8)></div>
+          <div class=product-name>鍐滄妧鍜ㄨ鏈嶅姟</div>
+          <div class=product-brief>涓撳鍦ㄧ嚎 路 瀹氬埗鏂规</div>
+          <div class=product-link>浜嗚В璇︽儏 &rarr;</div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- ==================== Section 6: 团队风采 ==================== -->
-  <section id="team" class="section team-section">
-    <div class="container">
-      <h2 class="section-title">团队风采</h2>
-      <p class="section-subtitle">一群热爱土地的人，用科技书写农业新篇章</p>
-
-      <!-- A区：团队合影 -->
-      <div class="team-photo-wrap">
-        <div class="team-photo-label">2026 · 全体成员</div>
-        <div class="team-photo" style="background:linear-gradient(160deg,#2E7D32,#66BB6A,#81C784,#A5D6A7)"></div>
-      </div>
-
-      <!-- B区：核心成员 -->
-      <div class="team-members">
-        <div class="member-card">
-          <div class="member-avatar" style="background:linear-gradient(135deg,#1B5E20,#43A047)"></div>
-          <div class="member-name">肖永红</div>
-          <div class="member-role">创始人 / CEO</div>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:linear-gradient(135deg,#2E7D32,#66BB6A)"></div>
-          <div class="member-name">肖永红</div>
-          <div class="member-role">首席技术官 CTO</div>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:linear-gradient(135deg,#388E3C,#81C784)"></div>
-          <div class="member-name"></div>
-          <div class="member-role">研发总监</div>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:linear-gradient(135deg,#1B5E20,#4CAF50)"></div>
-          <div class="member-name"></div>
-          <div class="member-role">市场总监</div>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:linear-gradient(135deg,#2E7D32,#A5D6A7)"></div>
-          <div class="member-name"></div>
-          <div class="member-role">运营总监</div>
+    <!-- 浜у搧璇︽儏寮圭獥 -->
+    <div class=product-modal-overlay id=productModal>
+      <div class=product-modal id=productModalBox>
+        <button class=modal-close id=modalClose>&times;</button>
+        <div class=modal-img id=modalImg></div>
+        <div class=modal-body>
+          <h3 class=modal-title id=modalTitle></h3>
+          <div class=modal-tabs>
+            <button class=mtab-btn active data-tab=params>鎶€鏈弬鏁?/button>
+            <button class=mtab-btn data-tab=cases>搴旂敤妗堜緥</button>
+            <button class=mtab-btn data-tab=contact>绔嬪嵆鍜ㄨ</button>
+          </div>
+          <div class=tab-content id=tabParams>
+            <p>璇ヤ骇鍝侀噰鐢ㄦ渶鏂颁竴浠ｄ紶鎰熸妧鏈紝鍏峰楂樼簿搴︺€佷綆鍔熻€椼€侀暱瀵垮懡绛夌壒鐐广€傚叿浣撴妧鏈弬鏁拌鑱旂郴鎴戜滑鐨勬妧鏈洟闃熻幏鍙栬缁嗚鏍间功銆?/p>
+          </div>
+          <div class=tab-content hidden id=tabCases>
+            <p>璇ヤ骇鍝佸凡鍦ㄥ叏鍥藉涓渷浠界殑瑙勬ā鍖栧啘鍦烘垚鍔熼儴缃插簲鐢紝甯姪瀹㈡埛骞冲潎鎻愬崌浜ч噺15%锛岄檷浣庣敤姘撮噺30%浠ヤ笂銆?/p>
+          </div>
+          <div class=tab-content hidden id=tabContact>
+            <p>濡傞渶浜嗚В鏇村浜у搧淇℃伅鎴栬幏鍙栨姤浠凤紝璇峰～鍐欎笅鏂圭暀瑷€琛ㄥ崟鎴栫洿鎺ユ嫧鎵撴垜浠殑鍜ㄨ鐑嚎銆?/p>
+          </div>
         </div>
       </div>
-
-      <!-- C区：Masonry 照片墙 -->
-      <div class="masonry-gallery" id="masonryGallery">
-        <div class="masonry-item" data-index="0" style="background:linear-gradient(135deg,#C8E6C9,#A5D6A7);height:220px"></div>
-        <div class="masonry-item" data-index="1" style="background:linear-gradient(135deg,#A5D6A7,#81C784);height:280px"></div>
-        <div class="masonry-item" data-index="2" style="background:linear-gradient(135deg,#81C784,#66BB6A);height:180px"></div>
-        <div class="masonry-item" data-index="3" style="background:linear-gradient(135deg,#66BB6A,#4CAF50);height:260px"></div>
-        <div class="masonry-item" data-index="4" style="background:linear-gradient(135deg,#4CAF50,#43A047);height:200px"></div>
-        <div class="masonry-item" data-index="5" style="background:linear-gradient(135deg,#43A047,#388E3C);height:240px"></div>
-        <div class="masonry-item" data-index="6" style="background:linear-gradient(135deg,#388E3C,#2E7D32);height:190px"></div>
-        <div class="masonry-item" data-index="7" style="background:linear-gradient(135deg,#2E7D32,#1B5E20);height:270px"></div>
-        <div class="masonry-item" data-index="8" style="background:linear-gradient(135deg,#1B5E20,#2E7D32);height:210px"></div>
-        <div class="masonry-item" data-index="9" style="background:linear-gradient(135deg,#E8F5E9,#C8E6C9);height:230px"></div>
-        <div class="masonry-item" data-index="10" style="background:linear-gradient(135deg,#F1F8E9,#DCEDC8);height:250px"></div>
-        <div class="masonry-item" data-index="11" style="background:linear-gradient(135deg,#E0F2F1,#B2DFDB);height:170px"></div>
-      </div>
-    </div>
-
-    <!-- Masonry 灯箱 -->
-    <div class="lightbox-overlay" id="lightboxOverlay">
-      <button class="lightbox-close" id="lightboxClose">&times;</button>
-      <button class="lightbox-prev" id="lightboxPrev">&lsaquo;</button>
-      <button class="lightbox-next" id="lightboxNext">&rsaquo;</button>
-      <div class="lightbox-img-wrap" id="lightboxImgWrap">
-        <div class="lightbox-img" id="lightboxImg"></div>
-      </div>
-      <div class="lightbox-counter" id="lightboxCounter"></div>
     </div>
   </section>
 
-  <!-- ==================== Section 7: 底部联系区域 ==================== -->
-  <section id="contact" class="section contact-section">
-    <div class="container contact-container">
-      <!-- 左侧：留言表单 -->
-      <div class="contact-form-wrap">
-        <h3 class="contact-form-title">与我们取得联系</h3>
-        <form class="contact-form" id="contactForm">
-          <input type="text" class="cf-input" placeholder="您的姓名" required>
-          <input type="tel" class="cf-input" placeholder="联系电话" required>
-          <input type="email" class="cf-input" placeholder="电子邮箱" required>
-          <textarea class="cf-input cf-textarea" placeholder="请描述您的需求或合作意向..." rows="4" required></textarea>
-          <button type="submit" class="cf-submit">提交留言</button>
+  <!-- ==================== Section 6: 鍥㈤槦椋庨噰 ==================== -->
+  <section id=team class=section team-section>
+    <div class=container>
+      <h2 class=section-title>鍥㈤槦椋庨噰</h2>
+      <p class=section-subtitle>涓€缇ょ儹鐖卞湡鍦扮殑浜猴紝鐢ㄧ鎶€涔﹀啓鍐滀笟鏂扮瘒绔?/p>
+
+      <!-- A鍖猴細鍥㈤槦鍚堝奖 -->
+      <div class=team-photo-wrap>
+        <div class=team-photo-label>2026 路 鍏ㄤ綋鎴愬憳</div>
+        <div class=team-photo style=background:linear-gradient(160deg,#2E7D32,#66BB6A,#81C784,#A5D6A7)></div>
+      </div>
+
+      <!-- B鍖猴細鏍稿績鎴愬憳 -->
+      <div class=team-members>
+        <div class=member-card>
+          <div class=member-avatar style=background:linear-gradient(135deg,#1B5E20,#43A047)></div>
+          <div class=member-name>鑲栨案绾?/div>
+          <div class=member-role>鍒涘浜?/ CEO</div>
+        </div>
+        <div class=member-card>
+          <div class=member-avatar style=background:linear-gradient(135deg,#2E7D32,#66BB6A)></div>
+          <div class=member-name>鑲栨案绾?/div>
+          <div class=member-role>棣栧腑鎶€鏈畼 CTO</div>
+        </div>
+        <div class=member-card>
+          <div class=member-avatar style=background:linear-gradient(135deg,#388E3C,#81C784)></div>
+          <div class=member-name></div>
+          <div class=member-role>鐮斿彂鎬荤洃</div>
+        </div>
+        <div class=member-card>
+          <div class=member-avatar style=background:linear-gradient(135deg,#1B5E20,#4CAF50)></div>
+          <div class=member-name></div>
+          <div class=member-role>甯傚満鎬荤洃</div>
+        </div>
+        <div class=member-card>
+          <div class=member-avatar style=background:linear-gradient(135deg,#2E7D32,#A5D6A7)></div>
+          <div class=member-name></div>
+          <div class=member-role>杩愯惀鎬荤洃</div>
+        </div>
+      </div>
+
+      <!-- C鍖猴細Masonry 鐓х墖澧?-->
+      <div class=masonry-gallery id=masonryGallery>
+        <div class=masonry-item data-index=0 style=background:linear-gradient(135deg,#C8E6C9,#A5D6A7);height:220px></div>
+        <div class=masonry-item data-index=1 style=background:linear-gradient(135deg,#A5D6A7,#81C784);height:280px></div>
+        <div class=masonry-item data-index=2 style=background:linear-gradient(135deg,#81C784,#66BB6A);height:180px></div>
+        <div class=masonry-item data-index=3 style=background:linear-gradient(135deg,#66BB6A,#4CAF50);height:260px></div>
+        <div class=masonry-item data-index=4 style=background:linear-gradient(135deg,#4CAF50,#43A047);height:200px></div>
+        <div class=masonry-item data-index=5 style=background:linear-gradient(135deg,#43A047,#388E3C);height:240px></div>
+        <div class=masonry-item data-index=6 style=background:linear-gradient(135deg,#388E3C,#2E7D32);height:190px></div>
+        <div class=masonry-item data-index=7 style=background:linear-gradient(135deg,#2E7D32,#1B5E20);height:270px></div>
+        <div class=masonry-item data-index=8 style=background:linear-gradient(135deg,#1B5E20,#2E7D32);height:210px></div>
+        <div class=masonry-item data-index=9 style=background:linear-gradient(135deg,#E8F5E9,#C8E6C9);height:230px></div>
+        <div class=masonry-item data-index=10 style=background:linear-gradient(135deg,#F1F8E9,#DCEDC8);height:250px></div>
+        <div class=masonry-item data-index=11 style=background:linear-gradient(135deg,#E0F2F1,#B2DFDB);height:170px></div>
+      </div>
+    </div>
+
+    <!-- Masonry 鐏 -->
+    <div class=lightbox-overlay id=lightboxOverlay>
+      <button class=lightbox-close id=lightboxClose>&times;</button>
+      <button class=lightbox-prev id=lightboxPrev>&lsaquo;</button>
+      <button class=lightbox-next id=lightboxNext>&rsaquo;</button>
+      <div class=lightbox-img-wrap id=lightboxImgWrap>
+        <div class=lightbox-img id=lightboxImg></div>
+      </div>
+      <div class=lightbox-counter id=lightboxCounter></div>
+    </div>
+  </section>
+
+  <!-- ==================== Section 7: 搴曢儴鑱旂郴鍖哄煙 ==================== -->
+  <section id=contact class=section contact-section>
+    <div class=container contact-container>
+      <!-- 宸︿晶锛氱暀瑷€琛ㄥ崟 -->
+      <div class=contact-form-wrap>
+        <h3 class=contact-form-title>涓庢垜浠彇寰楄仈绯?/h3>
+        <form class=contact-form id=contactForm>
+          <input type=text class=cf-input placeholder=鎮ㄧ殑濮撳悕 required>
+          <input type=tel class=cf-input placeholder=鑱旂郴鐢佃瘽 required>
+          <input type=email class=cf-input placeholder=鐢靛瓙閭 required>
+          <textarea class=cf-input cf-textarea placeholder=璇锋弿杩版偍鐨勯渶姹傛垨鍚堜綔鎰忓悜... rows=4 required></textarea>
+          <button type=submit class=cf-submit>鎻愪氦鐣欒█</button>
         </form>
-        <div class="form-success" id="formSuccess" style="display:none;">
-          <div class="success-checkmark">&#10003;</div>
-          <p>感谢您的留言！我们会尽快与您联系。</p>
+        <div class=form-success id=formSuccess style=display:none;>
+          <div class=success-checkmark>&#10003;</div>
+          <p>鎰熻阿鎮ㄧ殑鐣欒█锛佹垜浠細灏藉揩涓庢偍鑱旂郴銆?/p>
         </div>
       </div>
 
-      <!-- 右侧：联系信息 -->
-      <div class="contact-info-wrap">
-        <div class="ci-item">
-          <div class="ci-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <!-- 鍙充晶锛氳仈绯讳俊鎭?-->
+      <div class=contact-info-wrap>
+        <div class=ci-item>
+          <div class=ci-icon>
+            <svg width=24 height=24 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2><path d=M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z/><circle cx=12 cy=10 r=3/></svg>
           </div>
           <div>
-            <div class="ci-label">公司地址</div>
-            <div class="ci-value">江西省吉安市青原区天玉镇数字产业园13号楼</div>
+            <div class=ci-label>鍏徃鍦板潃</div>
+            <div class=ci-value>姹熻タ鐪佸悏瀹夊競闈掑師鍖哄ぉ鐜夐晣鏁板瓧浜т笟鍥?3鍙锋ゼ</div>
           </div>
         </div>
-        <div class="ci-item">
-          <div class="ci-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <div class=ci-item>
+          <div class=ci-icon>
+            <svg width=24 height=24 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2><path d=M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z/></svg>
           </div>
           <div>
-            <div class="ci-label">咨询电话</div>
-            <div class="ci-value">400-888-9527</div>
+            <div class=ci-label>鍜ㄨ鐢佃瘽</div>
+            <div class=ci-value>400-888-9527</div>
           </div>
         </div>
-        <div class="ci-item">
-          <div class="ci-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <div class=ci-item>
+          <div class=ci-icon>
+            <svg width=24 height=24 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2><path d=M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z/><polyline points=22,6 12,13 2,6/></svg>
           </div>
           <div>
-            <div class="ci-label">电子邮箱</div>
-            <div class="ci-value">contact@lvye-tech.com</div>
+            <div class=ci-label>鐢靛瓙閭</div>
+            <div class=ci-value>contact@lvye-tech.com</div>
           </div>
         </div>
-        <div class="ci-item">
-          <div class="ci-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <div class=ci-item>
+          <div class=ci-icon>
+            <svg width=24 height=24 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2><circle cx=12 cy=12 r=10/><polyline points=12 6 12 12 16 14/></svg>
           </div>
           <div>
-            <div class="ci-label">工作时间</div>
-            <div class="ci-value">周一至周五 9:00 - 18:00</div>
+            <div class=ci-label>宸ヤ綔鏃堕棿</div>
+            <div class=ci-value>鍛ㄤ竴鑷冲懆浜?9:00 - 18:00</div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 底部版权栏 -->
-    <footer class="site-footer">
-      <p>&copy; 2026 江西安农农业科技有限公司 &nbsp;|&nbsp; 京ICP备XXXXXXXX号-X &nbsp;|&nbsp; <a href="#">隐私政策</a></p>
+    <!-- 搴曢儴鐗堟潈鏍?-->
+    <footer class=site-footer>
+      <p>&copy; 2026 姹熻タ瀹夊啘鍐滀笟绉戞妧鏈夐檺鍏徃 &nbsp;|&nbsp; 浜琁CP澶嘪XXXXXXX鍙?X &nbsp;|&nbsp; <a href=#>闅愮鏀跨瓥</a></p>
     </footer>
   </section>
 
-  <!-- 回到顶部按钮 -->
-  <button class="back-to-top" id="backToTop" aria-label="回到顶部">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  <!-- 鍥炲埌椤堕儴鎸夐挳 -->
+  <button class=back-to-top id=backToTop aria-label=鍥炲埌椤堕儴>
+    <svg width=20 height=20 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.5><path d=M18 15l-6-6-6 6/></svg>
   </button>
 
-  <!-- JS 文件 -->
-  <script src="js/main.js"></script>
-  <script src="js/timeline.js"></script>
-  <script src="js/gallery.js"></script>
-  <script src="js/masonry.js"></script>
+  <!-- JS 鏂囦欢 -->
+  <script src=js/main.js></script>
+  <script src=js/timeline.js></script>
+  <script src=js/gallery.js></script>
+  <script src=js/masonry.js></script>
 </body>
 </html>
